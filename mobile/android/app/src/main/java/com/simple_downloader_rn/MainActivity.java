@@ -1,4 +1,4 @@
-package com.simple_downloader_rn;
+package com.mobile;
 
 import com.reactnativenavigation.NavigationActivity;
 

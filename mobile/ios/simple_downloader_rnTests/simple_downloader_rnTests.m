@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface simple_downloader_rnTests : XCTestCase
+@interface mobileTests : XCTestCase
 
 @end
 
-@implementation simple_downloader_rnTests
+@implementation mobileTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {
