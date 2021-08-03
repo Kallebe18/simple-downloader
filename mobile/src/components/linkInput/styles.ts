@@ -7,8 +7,6 @@ export const LinkTextInputContainer = styled.View<{  borderColor: string }>`
   padding: 5px 20px;
   background-color: #fff;
   margin: 10px;
-  color: #000;
-  font-size: 16px;
   border-width: 2px;
   border-color: ${props => props.borderColor};
   display: flex;
@@ -20,4 +18,6 @@ export const LinkTextInputContainer = styled.View<{  borderColor: string }>`
 export const LinkTextInput = styled.TextInput`
   margin-right: 5px;
   width: 220px;
+  color: #000;
+  font-size: 16px;
 `
