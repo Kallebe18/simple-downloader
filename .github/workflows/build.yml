@@ -19,7 +19,7 @@ jobs:
         with:
           java-version: 1.8
       - name: Build APK
-        run: ./mobile/android/gradlew assembleRelease --stacktrace
+        run: cd ./mobile/android && ./gradlew assembleRelease --stacktrace
       - name: Upload APK
         uses: actions/upload-artifact@v1
         with:
